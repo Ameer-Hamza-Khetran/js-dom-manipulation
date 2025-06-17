@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(https://res.cloudinary.com/dg3oj3rkx/image/upload/v1749854353/html_projects/project-01-background-img_t7mynt.jpg)
+            no-repeat center center/ cover fixed;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main-heading {
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+.quote-section {
+    margin-top: 2rem;
+    background-color: lightgrey;
+    width: 40vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    color: black;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.quoteAuthor {
+    color: blue;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: black;
+    color: antiquewhite;
+    border-color: azure;
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+    margin: 1.5rem auto;
+}
+button:active {
+    background-color: rgb(38, 0, 73);
+}
