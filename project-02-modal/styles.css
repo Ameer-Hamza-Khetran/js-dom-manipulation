@@ -27,3 +27,33 @@ body {
     align-items: center;
     justify-content: center;
 }
+#modal-button {
+    width: 15vw;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    color: beige;
+    font-size: x-large;
+    font-weight: 700;
+}
+#modal-button:active {
+    background-color: gray;
+}
+#modal {
+    background-color: white;
+    width: 40vw;
+    height: 40vh;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#close-button {
+    font-size: 3rem;
+    cursor: pointer;
+    color: red;
+}
+#modal-container {
+    display: none;
+}
