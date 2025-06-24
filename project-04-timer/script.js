@@ -73,4 +73,5 @@ resetBtn.addEventListener("click", function () {
     hours = 0;
 
     document.getElementById("timer").innerText = "00:00:00";
+    startStopBtn.innerHTML = `<i class='fa-solid fa-play' id='play'></i>`;
 });
